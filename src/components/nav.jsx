@@ -1,15 +1,14 @@
 import Style from "../styles/nav.module.css";
+import img from "../assets/img/user.png";
 
-function Nav() {
+
+export function Nav() {
   return (
-    <nav className="navbar">
+    <nav className={Style.navbar}>
       <p>Marketplace</p>
       <p>My Marketplace</p>
-      <button>
-        <img src="../assets/default-user-image.png" alt="" srcset="" />
-      </button>
+        <img src="http://uxpanol.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png
+" alt="no funciona" srcset="" />
     </nav>
   );
 }
-
-export default Nav;
