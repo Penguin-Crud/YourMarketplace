@@ -1,9 +1,10 @@
-import './styles/App.css';
+import "./styles/App.css";
+import Nav from "./components/nav.jsx";
 
 function App() {
   return (
     <div className="App">
-      hola developer
+      <Nav />
     </div>
   );
 }
