@@ -6,7 +6,7 @@ let data = [
     description: "Juego tipico de aventura en Nintendo",
     console: "Nintendo",
     seller: "Jaume Gomicia",
-    avatarSeller: "https://www.icmetl.org/wp-content/uploads/2020/11/user-icon-human-person-sign-vector-10206693.png",
+    avatarSeller: "../../assets/img/user.png",
     price: 35,
   },
   {
@@ -16,7 +16,8 @@ let data = [
     description: "Juego clasico de aventura de los años 90",
     console: "Nintendo",
     seller: "Ruben Caminal",
-    avatarSeller: "https://www.icmetl.org/wp-content/uploads/2020/11/user-icon-human-person-sign-vector-10206693.png",
+    avatarSeller:
+      "https://www.icmetl.org/wp-content/uploads/2020/11/user-icon-human-person-sign-vector-10206693.png",
     price: 30,
   },
   {
@@ -26,7 +27,8 @@ let data = [
     description: "Juego epico de lucha para Nintendo",
     console: "Nintendo",
     seller: "Martin Domingo",
-    avatarSeller: "https://www.icmetl.org/wp-content/uploads/2020/11/user-icon-human-person-sign-vector-10206693.png",
+    avatarSeller:
+      "https://www.icmetl.org/wp-content/uploads/2020/11/user-icon-human-person-sign-vector-10206693.png",
     price: 70,
   },
 ];

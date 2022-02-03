@@ -19,7 +19,11 @@ export function Nav() {
         <p>My Marketplace</p>
       </div>
       <div>
-        <img className={Style.avatar}src={seller.avatar} alt={seller.name}></img>
+        <img
+          className={Style.avatar}
+          src={seller.avatar}
+          alt={seller.name}
+        ></img>
         <p>{seller.name}</p>
       </div>
     </nav>
