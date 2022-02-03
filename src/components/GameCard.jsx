@@ -3,7 +3,7 @@ export function GameCard(props) {
     <li>
       <div>{props.game.name}</div>
       <div>
-        <img src={props.game.img} alt="" />
+        <img src={props.game.img} alt={props.game.name} />
       </div>
     </li>
   );

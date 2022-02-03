@@ -1,20 +1,28 @@
 .navbar {
   background-color: #222831;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   padding: 30px;
 }
 
-.navbar p{
-    color: white;
-    font-weight: bold;
-    margin-left: 25px;
+.navbar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-/* .navbar button img{
-    height: 100%;
-} */
+.navbar p {
+  color: white;
+  font-weight: bold;
+  margin-left: 25px;
+}
 
 .navbar button {
-    width: 100px;
+  width: 100px;
 }
+
+.avatar {
+  width: 3vh;
+}
+
+
