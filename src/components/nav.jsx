@@ -15,6 +15,7 @@ export function Nav() {
   return (
     <header className={Style.navbar}>
       <div>
+        <img className={Style.menu} src="../../assets/img/burger2.svg" alt="burger" />
         <p>Marketplace</p>
         <p>My Marketplace</p>
       </div>
