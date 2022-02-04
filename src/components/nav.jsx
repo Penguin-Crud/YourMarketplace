@@ -13,19 +13,33 @@ export function Nav() {
     );
   });
   return (
-    <nav className={Style.navbar}>
+    <header className={Style.navbar}>
       <div>
         <p>Marketplace</p>
         <p>My Marketplace</p>
       </div>
-      <div>
-        <img
-          className={Style.avatar}
-          src={seller.avatar}
-          alt={seller.name}
-        ></img>
-        <p>{seller.name}</p>
-      </div>
-    </nav>
+      <nav class={Style.hiddenMenu}>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                className={Style.avatar}
+                src={seller.avatar}
+                alt={seller.name}
+              ></img>
+              <p>{seller.name}</p>
+            </a>
+            <ul>
+              <li>
+                <a href="#">My Profile</a>
+              </li>
+              <li>
+                <a href="#">Logout</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 }

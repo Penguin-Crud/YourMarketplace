@@ -2,7 +2,7 @@
   background-color: #222831;
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  padding: 12px;
 }
 
 .navbar div {
@@ -11,10 +11,15 @@
   align-items: center;
 }
 
-.navbar p {
+.navbar div p {
   color: white;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 35px;
+  padding: 10px;
+}
+
+.navbar div p:hover {
+  background-color: #3b3c3fb7;
 }
 
 .navbar button {
@@ -22,6 +27,48 @@
 }
 
 .avatar {
-  width: 5vh;
+  width: 25%;
   border-radius: 50%;
+}
+
+.hiddenMenu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hiddenMenu ul li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  width: 10vw;
+}
+.hiddenMenu ul li a p {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hiddenMenu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.hiddenMenu a:hover {
+  background-color: #3b3c3f;
+}
+.hiddenMenu ul li ul {
+  display: none;
+  position: absolute;
+}
+
+.hiddenMenu ul li ul a {
+  color: white;
+  font-weight: bold;
+  background-color: #222831;
+  justify-content: center;
+}
+.hiddenMenu ul li a:hover + ul,
+.hiddenMenu ul li ul:hover {
+  display: block;
 }
