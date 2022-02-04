@@ -5,16 +5,16 @@
   padding: 30px;
 }
 
-.navbar div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.navbar div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .navbar p {
   color: white;
   font-weight: bold;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 .navbar button {
@@ -22,7 +22,6 @@
 }
 
 .avatar {
-  width: 3vh;
+  width: 5vh;
+  border-radius: 50%;
 }
-
-
