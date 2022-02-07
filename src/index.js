@@ -4,12 +4,14 @@ import "./styles/index.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./styles/reset.css";
-import "./styles/gameCard.css"
+import "./styles/gameCard.css";
+import { BrowserRouter } from "react-router-dom";
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
