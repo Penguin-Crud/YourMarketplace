@@ -1,5 +1,5 @@
 import Style from "../styles/nav.module.css";
-import { getAllGames } from "../services/gameService";
+import { getAllUsers } from "../services/gameService";
 import { useEffect, useState } from "react";
 
 export function Nav() {
@@ -7,11 +7,8 @@ export function Nav() {
   const [seller, setSeller] = useState([]);
   
   useEffect(() => {
-    getAllGames().then((sellerData) =>
-      setSeller({
-        name: sellerData[0].seller,
-        avatar: sellerData[0].avatarSeller,
-      })
+    getAllUsers().then((sellerData) => 
+      setSeller(sellerData[0])
     );
   });
   return (
@@ -27,7 +24,7 @@ export function Nav() {
             <a href="#">
               <img
                 className={Style.avatar}
-                src={seller.avatar}
+                src={seller.avatarSeller}
                 alt={seller.name}
               ></img>
               <p>{seller.name}</p>
