@@ -34,7 +34,11 @@ let data = [
 ];
 
 export function getAllGames() {
-
 return fetch("http://localhost:8080/products", {method:"GET"})
         .then(res => res.json() )
+}
+
+export function getAllUsers(){
+return fetch ("http://localhost:8080/user", {method:"GET"})
+        .then(res=> res.json())
 }
