@@ -8,7 +8,7 @@ export function Nav() {
   
   useEffect(() => {
     getAllUsers().then((sellerData) => 
-      setSeller(sellerData[2])
+      setSeller(sellerData[0])
     );
   });
   return (
@@ -21,6 +21,7 @@ export function Nav() {
       <nav className={Style.hiddenMenu}>
         <ul>
           <li>
+            
             <a href="#">
               <img
                 className={Style.avatar}
@@ -29,6 +30,7 @@ export function Nav() {
               ></img>
               <p>{seller.name}</p>
             </a>
+
             <ul>
               <li>
                 <a href="#">My Profile</a>
@@ -37,6 +39,7 @@ export function Nav() {
                 <a href="#">Logout</a>
               </li>
             </ul>
+
           </li>
         </ul>
       </nav>
