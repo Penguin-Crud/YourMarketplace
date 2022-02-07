@@ -8,7 +8,7 @@ export function Nav() {
   
   useEffect(() => {
     getAllUsers().then((sellerData) => 
-      setSeller(sellerData[2])
+      setSeller(sellerData[0])
     );
   });
   return (

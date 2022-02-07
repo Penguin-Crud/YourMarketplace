@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import { Nav } from "./components/nav.jsx";
+import { Nav } from "./components/Nav.jsx";
 import { Landing } from "./components/Landing.jsx";
 import { Routes, Route } from "react-router-dom";
 
