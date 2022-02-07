@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import { Nav } from "./components/Nav.jsx";
+import { Nav } from "./components/nav.jsx";
 import { Landing } from "./components/Landing";
 
 function App() {
