@@ -3,7 +3,9 @@ import { getAllGames } from "../services/gameService";
 import { useEffect, useState } from "react";
 
 export function Nav() {
+
   const [seller, setSeller] = useState([]);
+  
   useEffect(() => {
     getAllGames().then((sellerData) =>
       setSeller({
