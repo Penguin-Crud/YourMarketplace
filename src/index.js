@@ -4,6 +4,7 @@ import "./styles/index.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./styles/reset.css";
+import "./styles/gameCard.css"
 
 ReactDOM.render(
   <React.StrictMode>

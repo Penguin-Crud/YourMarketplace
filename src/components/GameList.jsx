@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAllGames } from "../services/gameService";
 import { GameCard } from "./GameCard";
+import Style from "../styles/gameList.module.css";
 
 export function GameList() {
   const [games, setGames] = useState([]);
@@ -8,12 +9,10 @@ export function GameList() {
     getAllGames().then((gamesData) => setGames(gamesData));
   });
   return (
-    <ul>
-      <li>
+    <div className={Style.container}>
         {games.map((game) => (
           <GameCard game={game} />
         ))}
-      </li>
-    </ul>
+    </div> 
   );
 }

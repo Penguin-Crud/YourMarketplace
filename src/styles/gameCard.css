@@ -1,0 +1,176 @@
+.card {
+    height: 280px;
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 2%;
+    border: 1px solid #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 3);
+    text-align: center;
+    background: linear-gradient(-135deg, #00adb5, #393e46);
+}
+
+.card:hover {
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 5);
+}
+
+.card-header img {
+    position: relative;
+    border-radius: 5%;
+    display: block;
+    height: 200px;
+    width: 200px;
+
+    object-fit: cover;
+    margin: 10px auto; 
+    transition: all 0.3s ease;
+}
+
+.card-plataform {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.card-plataform a {
+  transition: all 0.3s;
+}
+
+.card-plataform a:hover {
+  transform: scale(1);
+  box-shadow: 0 0 10px black;
+}
+
+.tag {
+    background: #cccccc;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .tag-red {
+    background-color:#E70012;
+  }
+
+  .tag-blue {
+    background-color: #314E9C;
+  }
+
+  .tag-green {
+    background-color: #0F7C0F;
+  }
+
+  .displace {
+    opacity: 0;
+    transition: all .5s ease;
+    transform: translateY(-45px);
+  }
+
+  .enlarge {
+    transform: scale(0);
+    opacity: 0;
+    transition: all .4s ease;
+  }
+
+  .card:hover .enlarge {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .card:hover .displace {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .displace:nth-child(1) {
+    transition-delay: .1s;
+  }
+
+  .displace:nth-child(2) {
+    transition-delay: .2s;
+  }
+
+  .displace:nth-child(3) {
+    transition-delay: .4s;
+  }
+
+  .info-game:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 25px;
+  }
+
+  .info-game:nth-child(3) {
+    margin: 15px 0;
+  }
+
+  .info-game {
+    color: #fff;
+  }
+
+  .card-content {
+    margin-bottom: 15px;
+  }
+
+  .car-actions {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-sizing: border-box;  
+  }
+
+  .buttons {
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 3);
+    padding: 8px 15px;
+    font-size: 16px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #00adb5, #222831);
+  }
+
+  .buttons img{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+  }
+
+  .buttons:hover {
+    cursor: pointer;
+    width: 75%;
+  }
+
+  .user {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .user img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .user-info h5 {
+    margin: 0;
+    color: #ffffff;
+  }
+
+  .user-info small {
+    color: #ffffff;
+  }
