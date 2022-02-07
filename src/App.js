@@ -1,13 +1,18 @@
 import "./styles/App.css";
-import { Nav } from "./components/Nav.jsx";
-import { Landing } from "./components/Landing";
+import { Nav } from "./components/nav.jsx";
+import { Landing } from "./components/Landing.jsx";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Landing />
-    </div>
+  <div>
+        <Routes>
+            <Route path="/" element={<Nav />} />
+        </Routes>
+        <Routes>
+            <Route path="/" element={<Landing />} />
+        </Routes>
+  </div>
   );
 }
 
