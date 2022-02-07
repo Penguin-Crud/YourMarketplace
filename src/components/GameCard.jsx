@@ -1,10 +1,10 @@
 export function GameCard(props) {
   return (
-    <li>
+    <div>
       <div>{props.game.name}</div>
       <div>
-        <img src={props.game.img} alt={props.game.name} />
+        <img src={props.game.img} alt={"alt :" + props.game.name} />
       </div>
-    </li>
+    </div>
   );
 }

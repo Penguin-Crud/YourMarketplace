@@ -33,6 +33,8 @@ let data = [
   },
 ];
 
-export async function getAllGames() {
-  return data;
+export function getAllGames() {
+
+return fetch("http://localhost:8080/products", {method:"GET"})
+        .then(res => res.json() )
 }

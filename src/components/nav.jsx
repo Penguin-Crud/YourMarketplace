@@ -21,7 +21,7 @@ export function Nav() {
         <p>Marketplace</p>
         <p>My Marketplace</p>
       </div>
-      <nav class={Style.hiddenMenu}>
+      <nav className={Style.hiddenMenu}>
         <ul>
           <li>
             <a href="#">
