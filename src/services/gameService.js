@@ -39,6 +39,6 @@ return fetch("http://localhost:8080/products", {method:"GET"})
 }
 
 export function getAllUsers(){
-return fetch ("http://localhost:8080/user", {method:"GET"})
+return fetch ("http://localhost:8080/users", {method:"GET"})
         .then(res=> res.json())
 }
