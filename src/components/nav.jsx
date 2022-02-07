@@ -8,8 +8,7 @@ export function Nav() {
   
   useEffect(() => {
     getAllUsers().then((sellerData) => 
-      // setSeller(sellerData[0])
-      console.log(sellerData)
+      setSeller(sellerData[0])
     );
   });
   return (
