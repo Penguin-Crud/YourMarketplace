@@ -16,7 +16,6 @@ export function Nav() {
       <div>
         <img className={Style.menu} src="../../assets/img/burger2.svg" alt="burger" />
         <p>Marketplace</p>
-        <p>My Marketplace</p>
       </div>
       <nav className={Style.hiddenMenu}>
         <ul>
