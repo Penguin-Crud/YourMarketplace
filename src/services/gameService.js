@@ -32,13 +32,14 @@ let data = [
     price: 70,
   },
 ];
+const puerto = "3000";
 
 export function getAllGames() {
-  return fetch("http://localhost:8080/products", {method:"GET"})
-        .then(res => res.json() )
+  return fetch("http://localhost:" + puerto + "/products", {method:"GET"})
+        .then(res => res.json())
 }
 
-export function getAllUsers(){
-  return fetch ("http://localhost:8080/users", {method:"GET"})
+export function getAllUsers() {
+  return fetch ("http://localhost:" + puerto + "/users", {method:"GET"})
         .then(res=> res.json())
 }
