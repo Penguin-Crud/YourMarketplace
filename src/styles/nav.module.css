@@ -1,9 +1,18 @@
+.navbarFather {
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+}
+
 .navbar {
   width: 100vw;
+  max-width: 60vw;
+  height: 12vh;
   background-color: #222831;
   display: flex;
   justify-content: space-between;
   padding: 12px;
+  box-sizing: border-box;
 }
 
 .navbar div {
@@ -13,9 +22,8 @@
 }
 
 .menu{
-    width: 30px;
-    margin-left: 2%;
-    
+  width: 30px;
+  margin-left: 2%; 
 }
 
 .navbar div p {
@@ -43,6 +51,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  z-index: 1;
 }
 
 .hiddenMenu ul li a {

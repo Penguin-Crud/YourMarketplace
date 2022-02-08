@@ -1,8 +1,35 @@
 .containerFather {
     font-family: 'Roboto', sans-serif;
-    padding: 50px;
-    width: 100vw;
+    background-color: #EEEEEE;
     height: 100vh;
+    max-height: 88vh;
+}
+
+.containerMain {
+    overflow: hidden;
+}
+
+.fondo1 {
+    background-image: url("../../public/assets/img/azul.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    max-width: 20vw;
+    z-index: 10;
+}
+
+.fondo2 {
+    background-image: url("../../public/assets/img/naranja.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    right: 0px;
+    height: 100vh;
+    width: 100vw;
+    max-width: 20vw;
+    z-index: 10;
 }
 
 @media screen and (max-width: 350px) {

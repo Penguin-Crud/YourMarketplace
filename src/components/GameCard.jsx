@@ -10,7 +10,7 @@ export function GameCard(props) {
         </div>
         <div className="card-content">
             <div className="info-game displace">{props.game.name}</div>
-            <div className="info-game displace">Arcade/Racing/Multiplayer</div>
+            <div className="info-game displace">Arcade/Racing</div>
             <div className="info-game displace">
                 <p>Progamdor, Profesor y Diseñador Web</p>
             </div>
