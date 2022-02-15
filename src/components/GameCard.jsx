@@ -6,26 +6,25 @@ export function GameCard(props) {
           <img src={props.game.img} alt={props.game.name} />
         </div>
         <div className="card-plataform">
-            <a className="tag tag-red">Nintendo Switch</a>
+            <a className="tag tag-red">{props.game.console}</a>
         </div>
         <div className="card-content">
             <div className="info-game displace">{props.game.name}</div>
             <div className="info-game displace">Arcade/Racing</div>
             <div className="info-game displace">
-                <p>Progamdor, Profesor y Diseñador Web</p>
+                <p>{props.game.description}</p>
             </div>
         </div>
         <div className="card-actions">
           <button className="buttons enlarge">
-              <img src="carro.png" alt="" />
-              buy
+              <img className= "carrito" src="../../assets/img/carrito2.svg" alt="carrito" />
+              {props.game.price}€ Buy
           </button>
         </div>
         <div className="user">
-          <img src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo" alt="user" />
+          <img src= {props.user.avatarSeller} alt="user" />
           <div className="user-info">
-            <h5>July Dec</h5>
-            <small>2h ago</small>
+          <h5>{props.user.name}</h5>
           </div>
         </div>
       </div>

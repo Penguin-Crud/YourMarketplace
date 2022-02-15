@@ -43,11 +43,19 @@ export function Nav() {
                 </ul>
               </li>
             </ul>
+<<<<<<< HEAD
           </nav>
         </header>
         <Landing />
       </div>
       <div className={StyleImg.fondo2}></div>
     </div>
+=======
+
+          </li>
+        </ul>
+      </nav>
+    </header>
+>>>>>>> e9e3c02bbb1af240d9c7c3330bdcbcf00f252095
   );
 }

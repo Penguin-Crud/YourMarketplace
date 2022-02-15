@@ -1,0 +1,37 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "facundon",
+            "surname": "don",
+            "email": "f@f.com",
+            "avatarSeller": "que no miras"
+        },
+        {
+            "id": 1,
+            "name": "facundon3",
+            "surname": "don",
+            "email": "f@f.com",
+            "avatarSeller": "que no miiiiras"
+        }
+    ],
+
+    "products": [
+        {
+            "id": 0,
+            "name": "facu",
+            "price": 200.0,
+            "description": "hola que hace",
+            "console": "quemiras",
+            "owner": 0
+        },
+        {
+            "id": 1,
+            "name": "facu ad",
+            "price": 200.0,
+            "description": "hola que dahace",
+            "console": "quemidras",
+            "owner": 0
+        }
+    ]
+}
