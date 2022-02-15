@@ -1,6 +1,6 @@
 import Style from "../styles/nav.module.css";
 import StyleImg from "../styles/landing.module.css";
-import { Landing } from "../components/Landing";
+import { Landing } from "./Landing";
 import { getAllUsers } from "../services/gameService";
 import { useEffect, useState } from "react";
 
@@ -43,19 +43,11 @@ export function Nav() {
                 </ul>
               </li>
             </ul>
-<<<<<<< HEAD
           </nav>
         </header>
         <Landing />
       </div>
       <div className={StyleImg.fondo2}></div>
     </div>
-=======
-
-          </li>
-        </ul>
-      </nav>
-    </header>
->>>>>>> e9e3c02bbb1af240d9c7c3330bdcbcf00f252095
   );
 }
