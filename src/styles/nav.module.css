@@ -1,9 +1,3 @@
-.navbarFather {
-  display: flex;
-  margin: 0;
-  overflow: hidden;
-}
-
 .navbar {
   width: 100vw;
   max-width: 60vw;

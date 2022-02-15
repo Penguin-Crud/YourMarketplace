@@ -1,8 +1,13 @@
+.landingFather {
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+}
+  
 .containerFather {
     font-family: 'Roboto', sans-serif;
     background-color: #EEEEEE;
-    height: 100vh;
-    max-height: 88vh;
+    min-height: 100vh;
 }
 
 .containerMain {

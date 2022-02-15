@@ -8,9 +8,6 @@ function App() {
   return (
   <div>
         <Routes>
-            <Route path="/" element={<Nav />} />
-        </Routes>
-        <Routes>
             <Route path="/" element={<Landing />} />
         </Routes>
         <Routes>
