@@ -1,3 +1,8 @@
+import { useParams } from "react-router-dom";
+
 export function GameId () {
-    return "hola";
+    
+    let { id } = useParams();
+
+    return <p>{id}</p>;
 }

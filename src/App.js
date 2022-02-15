@@ -7,12 +7,10 @@ import { GameId } from "./components/GameId.jsx";
 function App() {
   return (
   <div>
-        <Routes>
-            <Route path="/" element={<Landing />} />
-        </Routes>
-        <Routes>
-            <Route path="/product" element={<GameId />} />
-        </Routes>
+    <Routes>
+        <Route path="/" element={<Landing />} />
+          <Route path="/product/:id" element={<GameId />} />
+    </Routes>
   </div>
   );
 }
